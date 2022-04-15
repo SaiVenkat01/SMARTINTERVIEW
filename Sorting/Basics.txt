@@ -1,0 +1,15 @@
+An algorithm which takes space complexity 1,then
+those algorithm are known as inplace algorithms.
+
+1.BubbleSort   n2,1
+2.SelectionSort  n2,1
+3.InsertionSort  n2,1
+4.CountSort      n+range,range
+5.MergeSort     nlogn,n 
+Internally(in brain) we use SelectionSort
+-----4.CountSort-----
+Limitations:
+1)If range is large
+When we shouldn't use CountSort is that
+when the ranse is way bigger than the number of elements
+Ideal case to use count sort is r<=n

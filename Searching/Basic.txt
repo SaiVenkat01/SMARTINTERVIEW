@@ -1,0 +1,7 @@
+The array should be already sorted to use binarysearch algorithm
+
+            unsortedArray       SortedArray     SortedArrayWithQQueries     unsortedArrayWithQQueries
+Linear              N               N                   Q*N                         Q*N
+binary       NlogN+logN             logN               Q*logN                   NlogN+Q*logN
+
+Log with the base 2

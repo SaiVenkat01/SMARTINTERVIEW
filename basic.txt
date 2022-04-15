@@ -1,0 +1,12 @@
+
+                    insert(x)               Search(x)               delete(x)
+unsorted array          1                       n                       n
+sorted array            n                       logn                    n
+stack                   1                       n+n                     n+n
+queue                   1                       n+n                     n+n
+S.Linked List           1                       n                       n
+sorted SLL              n                       n                       n
+BST             h(logn(A),n(W))         h(logn(A),n(W))         h(logn(A),n(W))
+Balanced BST           logn                     logn                    logn
+count array             1                       1                       1              (not memory effective)
+

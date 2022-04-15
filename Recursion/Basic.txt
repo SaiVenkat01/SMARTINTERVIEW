@@ -1,0 +1,10 @@
+Rules before doing recursion
+1.Asumption of function name(what it will do)
+2.Main logic
+3.Base condition(Terminating condition)
+
+
+Incompletes and Errors:
+1.ArrangementOfBricks
+2.arrangeOfsubStrTomakeValidString
+3.MagicSquare
