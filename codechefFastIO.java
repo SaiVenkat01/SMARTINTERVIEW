@@ -1,8 +1,7 @@
-
 import java.util.*;
 import java.io.*;
 
-public class template{
+public class codechefFastIO{
     static class FastReader{
         BufferedReader br;
         StringTokenizer st;
@@ -70,6 +69,16 @@ public class template{
             int testCases=in.nextInt();
             while(testCases-- > 0){
                 // write code here
+                int n=in.nextInt();
+                int arr1[]=in.readArray(n);
+                int arr2[]=in.readArray(n);
+                int ans=0;
+                for(int i=0;i<n;i++){
+                    for(int j=0;j<n;j++){
+                        ans+=Math.max((arr1[i]^arr2[j]),(arr1[i]&arr2[j]));
+                    }
+                }
+                System.out.println(ans);
             }
             out.close();
         } catch (Exception e) {

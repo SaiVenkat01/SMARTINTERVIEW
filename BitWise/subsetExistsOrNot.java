@@ -16,7 +16,7 @@ public class subsetExistsOrNot {
         sc.close();
     }
     public static boolean subset(int arr[],int n,int k){
-        for(int i=0;(1<<n)>i;i++){
+        for(int i=0;i<(1<<n);i++){
             int sum=0;
             for(int j=0;j<n;j++){
                 if(((i>>j)&1)==1)
